@@ -1,7 +1,7 @@
 "use client";
 
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Environment } from "@react-three/drei";
+import { Environment } from "@react-three/drei";
 import { useRef } from "react";
 import { Group, Vector3 } from "three";
 import { useFrame } from "@react-three/fiber";
@@ -26,7 +26,7 @@ export default function Home() {
         />
         <FloatingGrillz position={[0, 0, 0]} scale={0.15} />
         <Environment files="/HDRI_8K_009_preview.jpg" background={false} />
-        <OrbitControls />
+        {/* <OrbitControls /> */}
       </Canvas>
     </div>
   );
