@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="w-full h-screen">
       <Canvas
-        camera={{ position: [3, 3, 3] }}
+        camera={{ position: [2, 2, 2] }}
         gl={{ alpha: true }}
       >
         <ambientLight intensity={1.0} />
